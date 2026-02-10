@@ -2,15 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Isabella Villante's webpage for CIS 128 Homework 1. Includes an introduction, technologies for the class, and resources for developers.">
+    <meta name="description" content="Isabella Villante's webpage for CIS 128 Homework 1, with updates for HW1A. Includes an introduction, technologies for the class, and resources for developers.">
     <meta name="author" content="Isabella Villante" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HW 1 CIS 128</title>
+    <title>HW 1A CIS 128</title>
     <link rel="stylesheet" type="text/css" href="hw1style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").on("click", function() {
+        $("h1").css("color", "maroon");
+        $("h1").animate({"font-size": "+=1rem"}, 3000);
+        $("h1").animate({"font-size": "-=1rem"}, 3000);
+        $("img").animate({borderWidth: '5px'}, 3000);
+        var timer = setTimeout(function() {$("h1").css("color", "rgb(0, 68, 0)")}, 6000);
+      });
+    });
+    </script>
 </head>
+
 <body>
     <h1>CIS 128: Mobile/Web App Development
     </h1>
+
+    <button>Click for animation!</button>
+
+    <br>
 
     <div class="container">
         <div class="text">
