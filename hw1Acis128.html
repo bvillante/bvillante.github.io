@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Isabella Villante's webpage for CIS 128 Homework 1, with updates for HW1A. Includes an introduction, technologies for the class, and resources for developers.">
+    <meta name="author" content="Isabella Villante" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW 1A CIS 128</title>
+    <link rel="stylesheet" type="text/css" href="hw1style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").on("click", function() {
+        $("h1").css("color", "maroon");
+        $("h1").animate({"font-size": "+=1rem"}, 3000);
+        $("h1").animate({"font-size": "-=1rem"}, 3000);
+        $("img").animate({borderWidth: '5px'}, 3000);
+        var timer = setTimeout(function() {$("h1").css("color", "rgb(0, 68, 0)")}, 6000);
+      });
+    });
+    </script>
+</head>
+
+<body>
+    <h1>CIS 128: Mobile/Web App Development
+    </h1>
+
+    <button>Click for animation!</button>
+
+    <br>
+
+    <div class="container">
+        <div class="text">
+          <p>Hi, my name is Isabella Villante. I'm 24 years old and graduated with degrees in Cognitive Science: Design & Interaction and Literature/Writing from UCSD. Now, I'm pursuing a career in UX Design and Writing with an specific interest in accessibility. When I have some extra time, I also love to read, kayak, and create new recipes to cook. I'm looking forward to starting CIS 128 and learning with everyone! 
+          </p>
+        </div>
+        <img src="isabella.jpeg" alt="Photo of Isabella smiling while sitting in a restaurant.">
+    </div>
+
+    <p>I am a non degree-seeking student and wanted to attend this course because I'm looking to expand my skills in the development side of app creation. On one end, I think it will make me a more well-rounded designer if I can create websites from scratch. On the other end, I think it will also make me a better collaborator if I'm able to understand what developers have to do to bring designs to life. 
+    </p>
+    <br>
+    <h2>Technologies for this Class
+    </h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    <h2>Resources
+    </h2>
+      <ul>
+        <li><a href="https://www.codecademy.com/learn" target="_blank" rel="noopener noreferrer">Codeacademy</a>: A great resource for learning, referencing, or brushing up on HTML and CSS. Includes hands-on, interactive lessons and mini projects to practice with.</li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements" target="_blank" rel="noopener noreferrer">MDN's HTML Element Reference List</a>: Great reference sheet for HTML elements. This makes it easy to search for whatever you need, and the resources on the rest of the site are extremely helpful as well.</li>
+      </ul>
+    
+    <br>
+    <br>
+
+    
+</body>
+</html>
