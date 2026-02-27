@@ -17,7 +17,7 @@
 		
 	header{
 		background-color:#333; /* a more specific way to set a background color */
-		background-image:url(images/headerbkgd.png); /* sets a background image in the header and the position it should sit */
+		background-image:url(headerbkgd.png); /* sets a background image in the header and the position it should sit */
 		background-repeat:no-repeat; /* sets a background image to repeat, repeat-x, repeat-y or not at all as written in this rule */
 		background-position:left bottom;/* sets a background image position */
 		color:#fff;	/* sets the the color of all header text to white */
@@ -214,5 +214,6 @@
 	  }
 
 	}
+
 
 
