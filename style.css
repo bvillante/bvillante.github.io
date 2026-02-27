@@ -41,7 +41,7 @@
 		text-decoration:none; /* this removes the normal underline that links usually have */
 	}
 						
-	ul.navigation li a:hover{
+	ul.navigation li a:hover, ul.navigation li a:active{
 		background-color:#000; /*this is a hover pseudo class.  By designating a different background color, than the class for the a tag above, when a mouse hovers over these particular links, in the navigation bar, the background color will change to what's defined here */
 		
 	}
