@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Us Page for ABC Toys, including email, phone, and address.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"></script>
+</head>
+
+<!--fix the sources for semantic ui, can do cdn or try to fix-->
+<!--change the headers to the semantic version-->
+
+<body>
+
+<!--add links to the other pages so you can nav between them-->
+<div class="ui top fixed five item orange inverted menu">
+  <a class="red item">
+    Home
+  </a>
+  <a class="green item">
+    Products
+  </a>
+  <a class="blue active item">
+    Contact Us
+  </a>
+  <a class="pink item">
+    Location
+  </a>
+  <a class="yellow item">
+    Extra
+  </a>
+</div>
+
+<!--add margins through css, also center? and maybe format contact info differently-->
+<br><br>
+<h1>Contact Us!</h1>
+<h2></h2>
+
+<h3>Email:</h3>
+  <p>ABCtoys@gmail.com</p>
+<h3>Phone:</h3>
+  <p>(111)111-1111</p>
+<h3>Address:</h3>
+  <p>232 Fun Lane</p>
+<h3>Social Media:</h3>
+  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">ABC Toys Facebook</a>
+
+<br><br>
+
+<h3>Or leave us a message through this form:</h3>
+<form class="ui form">
+  <div class="field">
+    <label>Full Name</label>
+    <input type="text" name="fullname" placeholder="Full Name" maxlength="50">
+  </div>
+  <div class="field">
+    <label>Email Address</label>
+    <input type="email" name="email" placeholder="Email" required>
+  </div>
+  <div class="field">
+    <label>Comments</label>
+	<textarea rows="3" placeholder="Type here..."></textarea>
+  </div>
+  <div class="field">
+    <div class="ui checkbox">
+      <input type="checkbox" class="hidden">
+      <label>I agree to the Terms and Conditions</label>
+    </div>
+  </div>
+  <button class="ui button" type="submit">Submit</button>
+</form>
+
+<br><br>
+
+</body>
+
+</html>
