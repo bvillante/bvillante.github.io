@@ -33,7 +33,7 @@
 
     <script>
         if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service-worker.js')
+            navigator.serviceWorker.register('/hw4pwa/service-worker.js')
                 .then((reg) => {
                     console.log('Registration succeeded. Scope is ' + reg.scope);
                 })
