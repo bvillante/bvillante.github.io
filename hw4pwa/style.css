@@ -1,0 +1,52 @@
+body, .wrapper {
+    width: 100%; 
+    box-sizing: border-box;
+	padding: 1rem;
+} 
+
+
+body{
+	background:#ffffff;	/* a white background color. */
+	font-family:Arial, Helvetica, sans-serif; /* the font family for all text on the web page is now either arial, helvetica or a sans-serif font if those two are not available */
+	font-size:.9rem; /* all normal text on the web page has a base font size of 14px now */
+	color: black;
+}
+
+h1{
+	font-family:'Courier New', Courier, monospace;
+	color: #A50033;
+}
+
+p{
+	letter-spacing:.04rem; /* letter spacing sets the horizontal spacing (kerning) between letters in a block of text. */
+	line-height:1.3rem; /* line height sets the vertical spacing between lines of text. */
+}
+
+a{
+	color:#A50033;
+}
+
+select{
+	padding: .2rem;
+}
+
+
+@media screen and (max-width:600px) {
+	.wrapper {
+		display: flex;  
+		flex-flow: row wrap;
+		text-align: center;
+		flex: 1 100%;
+	}
+		
+
+}
+
+
+
+@media screen and (min-width:601px) {
+	.wrapper { 
+		text-align: left;
+	}
+
+}
