@@ -5,16 +5,16 @@ const assetsToCache = [
     '/style.css',
     '/serviceworker.js',
     '/manifest.json',
-    'icon32_maskable.png',
-    'icon180_maskable.png',
-    'icon192_maskable.png',
-    'icon512_maskable.png',
-    'icon32_rounded.png',
-    'icon180_rounded.png',
-    'icon192_rounded.png',
-    'icon512_rounded.png',
-    'lightblue.jpg',
-    'lightgold.jpg'
+    '/icon32_maskable.png',
+    '/icon180_maskable.png',
+    '/icon192_maskable.png',
+    '/icon512_maskable.png',
+    '/icon32_rounded.png',
+    '/icon180_rounded.png',
+    '/icon192_rounded.png',
+    '/icon512_rounded.png',
+    '/lightblue.jpg',
+    '/lightgold.jpg'
 ];
 
 self.addEventListener('install', event => {
