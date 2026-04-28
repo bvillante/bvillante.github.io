@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="description" content="Simple Page for CIS 128 Homework 4 Exploring PWAs">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="manifest" href="manifest.json" >
-<link rel="stylesheet" type="text/css" href="style.css" >
-<title>PWAs for Homework 4</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Simple Page for CIS 128 Homework 4 Exploring PWAs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json" >
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>PWAs for Homework 4</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
 
     <script>
         if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('service-worker.js')
+            navigator.serviceWorker.register('/service-worker.js')
                 .then((reg) => {
                     console.log('Registration succeeded. Scope is ' + reg.scope);
                 })
