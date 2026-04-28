@@ -3,7 +3,7 @@ const assetsToCache = [
     '/',
     '/index.html',
     '/style.css',
-    '/serviceworker.js',
+    '/service-worker.js',
     '/manifest.json',
     '/icon32_maskable.png',
     '/icon180_maskable.png',
