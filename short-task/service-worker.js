@@ -1,7 +1,6 @@
 const cacheST = 'CacheHybrid';
 const assetsToCache = [
     '/',
-    '/short-task',
     '/short-task/indexhybrid.html',
     '/short-task/style.css',
     '/short-task/service-worker.js',
