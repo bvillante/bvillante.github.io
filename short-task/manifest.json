@@ -1,0 +1,13 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+
+  "short_name": "Isabella's Short Task",
+  "name": "CIS 128 Short Task Site",
+
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#008080",
+  "background_color": "white"
+}
