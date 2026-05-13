@@ -1,4 +1,4 @@
-const cacheST = 'CachePWA';
+const cacheST = 'CacheHybrid';
 const assetsToCache = [
     '/',
     '/short-task',
