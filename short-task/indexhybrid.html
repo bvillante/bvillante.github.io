@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylehybrid.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Hybrid Application Technology Comparison</title>
@@ -13,118 +14,15 @@
 
 <body>
 
-<!-- 
-<div class="container p-5 my-5 bg-white text-dark">
-    <h1 style="color: #470606;">Hybrid Application Technologies Compared</h1>
-    <br><br>
-
-  <div class="row" style="background-color: #C8E5BE;">
-    <div class="col-lg-4 col-md-4">
-      <h2 style="color: #470606;"><strong>Flutter</strong></h2>
-      <img src="flutter.png" style="padding: 15%;" class="img-fluid" alt="Image of Flutter's logo.">
-    </div>
-    <div class="col-lg-8 col-md-8">
-        <p><strong>Quick Summary:</strong> Open-source UI framework for natively compiled + multi platform apps on a single codebase</p>
-        <p><strong>Created/Supported By:</strong> Google</p>
-        <p><strong>Languages Used:</strong> Dart</p>
-        <p><strong>Apps That Use It:</strong> eBay, Toyota, New York Times</p>
-        <p><strong>Advantages:</strong></p>
-          <ul>
-            <li>Seamless integration with Google Services, fast-growing community supported by Google</li>
-            <li>Features for fast performance- Hot Reload (can update code and see changes almost immediately without losing state) and Ahead-of-Time (AOT) Compilation</li>
-            <li>Pixel-level design control and widget library for UI</li>
-          </ul>
-        <p><strong>Disadvantages:</strong></p>
-          <ul>
-            <li>Slightly steeper learning curve with use of Dart</li>
-          </ul>
-        <p><strong>Best For:</strong></p>
-          <ul>
-            <li>Visually rich, custom and consistent UI</li>
-            <li>People willing to learn Dart</li>
-            <li>Fast performance</li>
-          </ul>
-    </div>
-  </div>
-  <br>
-
-  <div class="row" style="background-color: #F5BFDE;">
-    <div class="col-lg-4 col-md-4">
-      <h2 style="color: #470606;"><strong>Ionic</strong></h2>
-      <img src="ionic.png" style="padding: 15%;" class="img-fluid max-width:50%;" alt="Image of Ionic's logo.">
-    </div>
-    <div class="col-lg-8 col-md-8">
-        <p><strong>Quick Summary:</strong> Open-source software development kit (SDK) for cross-platform apps from a single codebase</p>
-        <p><strong>Created/Supported By:</strong> Drifty Co.</p>
-        <p><strong>Languages Used:</strong> HTML, CSS, JavaScript</p>
-        <p><strong>Apps That Use It:</strong> Target, Southwest, TMobile</p>
-        <p><strong>Advantages:</strong></p>
-          <ul>
-            <li>Building and viewing in your web browser</li>
-            <li>Fast performance- hardware accelerated transitions, touch-optimized gestures, pre-rendering</li>
-            <li>Works with JS front-end frameworks like Angular, React, Vue</li>
-            <li>Native device integration/plugins: camera, maps, geolocation, bluetooth</li>
-          </ul>
-        <p><strong>Disadvantages:</strong></p>
-          <ul>
-            <li>Mature but shrinking community</li>
-            <li>Performance will not be as good for heavy animations or more complex native functions</li>
-          </ul>
-        <p><strong>Best For:</strong></p>
-          <ul>
-            <li>Web developers</li>
-            <li>When web integration is desired</li>
-            <li>When speedy development is desired</li>
-          </ul>
-    </div>
-  </div>
-  <br>
-  
-  <div class="row" style="background-color: #F5EEBF;">
-    <div class="col-lg-4 col-md-4">
-      <h2 style="color: #470606;"><strong>React Native</strong></h2>  
-      <img src="reactnative.png" style="padding: 15%;" class="img-fluid" alt="Image of React Native's logo.">      
-    </div>
-    <div class="col-lg-8 col-md-8">       
-        <p><strong>Quick Summary:</strong> Open-source JavaScript library for building UI, with native components</p>
-        <p><strong>Created/Supported By:</strong> Facebook</p>
-        <p><strong>Languages Used:</strong> JavaScript, React</p>
-        <p><strong>Apps That Use It:</strong> Instagram, Discord, Uber Eats</p>
-        <p><strong>Advantages:</strong></p>
-          <ul>
-            <li>Large and active community</li>
-            <li>Performance, look, and feel of a native app: camera, push notifications, geolocation</li>
-            <li>Easy for those familiar with JS and React</li>
-          </ul>
-        <p><strong>Disadvantages:</strong></p>
-          <ul>
-            <li>JS bridge can sometimes slow performance</li>
-          </ul>
-        <p><strong>Best For:</strong></p>
-          <ul>
-            <li>React/JS developers</li>
-            <li>When you want an app to feel native</li>
-            <li>Speedy development (for React devs)</li>
-          </ul>
-    </div>
-  </div>
-</div>
-
-
-
-
- -->
-
-
-
 <div class="container p-5 bg-white text-dark">
-    <h1 style="color: #470606;">Which Framework Should You Choose?</h1>
-    <h2 style="color: #470606;">Hybrid Application Technologies Compared</h2>
+    <h1>Which Framework Should You Choose?</h1>
+    <h2>Hybrid Application Technologies Compared</h2>
+    <p>Different frameworks will suit different projects, depending on the needs of a project and the team working on it. Check out this comparison below to help determine what framework works best for you!</p>
   <br>
 
   <div class="row gx-5">
     <div class="col-lg-4 col-md-4 my-2" style="background-color: #d7f5ce;">
-      <h2 style="color: #470606; text-align: center;"><strong>Flutter</strong></h2>
+      <h3>Flutter</h3>
         <br>
         <p><strong>Quick Summary:</strong> Open-source UI framework for natively compiled + multi platform apps on a single codebase</p>
         <p><strong>Created/Supported By:</strong> Google</p>
@@ -150,7 +48,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 my-2" style="background-color: #ffd3ec;">
-      <h2 style="color: #470606; text-align: center;"><strong>Ionic</strong></h2>
+      <h3>Ionic</h3>
         <br>
         <p><strong>Quick Summary:</strong> Open-source software development kit (SDK) for cross-platform apps from a single codebase</p>
         <p><strong>Created/Supported By:</strong> Drifty Co.</p>
@@ -178,7 +76,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 my-2" style="background-color: #fdf7cd;">
-      <h2 style="color: #470606; text-align: center;"><strong>React Native</strong></h2>        
+      <h3>React Native</h3>        
         <br>
         <p><strong>Quick Summary:</strong> Open-source JavaScript library for building UI, with native components</p>
         <p><strong>Created/Supported By:</strong> Facebook</p>
