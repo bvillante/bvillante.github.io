@@ -2,7 +2,7 @@ const cacheST = 'CacheHybrid';
 const assetsToCache = [
     '/',
     '/short-task/indexhybrid.html',
-    '/short-task/style.css',
+    '/short-task/stylehybrid.css',
     '/short-task/service-worker.js',
     '/short-task/manifest.json',
     '/short-task/flutter.png',
